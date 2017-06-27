@@ -1,0 +1,29 @@
+@media only screen and (min-width: 700px) {
+@keyframes color-change{
+  0%{
+    background-color: black;
+  }
+  50%{
+    background-color: #99ff00;
+  }
+  100%{
+    background-color: white;
+  }
+}
+}
+
+# box{
+  animation-name: color-change;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: 100;
+  font-size: 100px;
+  color: #cc3366;
+  padding: 2px 10px;
+  border: 6px double  #660033;
+  margin: 50px 0 0 50px;
+  border-radius: 20px;
+  text-align: center;
+}
